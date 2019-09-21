@@ -47,13 +47,13 @@ ul {
     padding: 14px 16px 24px;
     overflow: hidden;
     background-color: #1f7a1f;
-}
-
-ul {
-    position: fixed;
-    top: 0;
     width: 100%;
 }
+
+ ul {
+    top: 0;
+    width: 100%;
+} 
 
 
 li {
@@ -150,20 +150,26 @@ a:link {
     color: pink;
 }
 
+ 
 @media screen and (max-width:980px){
-  main {background-color: pink;}
-  .container{}
-  .container2{}
+  .main {
+ background-color: pink;
+ font: 1.75rem;
+ line-height: 1.5}
 }
 
 @media screen and (max-width:768px){
-main{background-color: plum;}
-.container {}
-.container2 {}
+.main{
+ background-color: plum;
+ font: 1.50rem;
+ line-height: 1.5}
+
 }
 
 @media screen and (max-width:640px) {
-main {background-color: salmon;}
-.container {}
-.container2 {}
+.main {
+ background-color: salmon;
+ font: 1.25rem;
+ line-height: 1.5;}
+
 }
