@@ -51,6 +51,7 @@ ul {
 }
 
  ul {
+    position: fixed;
     top: 0;
     width: 100%;
 } 
@@ -152,7 +153,7 @@ a:link {
 
  
 @media screen and (max-width:980px){
-  .main {
+.main {
  background-color: pink;
  font: 1.75rem;
  line-height: 1.5}
