@@ -21,7 +21,7 @@ main {
     height: 550px;
     padding: 10px;
     border: 1px; 
-    margin: 45px;
+    margin: 72px;
     padding: 30px;
 }
 
@@ -150,15 +150,20 @@ a:link {
     color: pink;
 }
 
-@media (max-width:980px){
+@media screen and (max-width:980px){
   main {background-color: pink;}
-  
+  .container{}
+  .container2{}
 }
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
 main{background-color: plum;}
+.container {}
+.container2 {}
 }
 
-@media (max-width:640px) {
+@media screen and (max-width:640px) {
 main {background-color: salmon;}
+.container {}
+.container2 {}
 }
